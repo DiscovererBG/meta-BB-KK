@@ -3,9 +3,14 @@
 # 默认DNS地址
 DEFAULT_DNS="154.83.83.83"
 
-# 查询当前的DNS设置
+# 显示当前DNS设置
 echo "当前DNS设置为："
 cat /etc/resolv.conf | grep "nameserver"
+
+# 备份当前 resolv.conf 文件
+echo "正在备份当前 DNS 配置..."
+cp /etc/resolv.conf /etc/resolv.conf.bak
+echo "备份完成，备份文件保存为 /etc/resolv.conf.bak"
 
 # 提示选择DNS地址
 echo "请选择要设置的DNS地址:"
@@ -25,7 +30,7 @@ bash <(curl -L -s https://github.com/1-stream/RegionRestrictionCheck/raw/main/ch
 # 读取用户选择
 read -p "请输入选择的号码 (1-8): " choice
 
-# 设置DNS地址
+# 根据选择设置DNS
 case $choice in
   1) DNS="154.83.83.83" ;;
   2) DNS="154.83.83.84" ;;
@@ -38,9 +43,8 @@ case $choice in
   *) echo "无效的选择，使用默认 DNS ($DEFAULT_DNS)" && DNS="$DEFAULT_DNS" ;;
 esac
 
-# 备份当前 resolv.conf 并更新为新的 DNS
+# 更新 DNS 配置
 echo "正在更新DNS为 $DNS ..."
-cp /etc/resolv.conf /etc/resolv.conf.bak
 echo "nameserver $DNS" > /etc/resolv.conf
 
 # 显示更新后的DNS
