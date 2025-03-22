@@ -14,8 +14,14 @@ echo "6. 美国 DNS (154.83.83.88)"
 echo "7. 英国 DNS (154.83.83.89)"
 echo "8. 德国 DNS (154.83.83.90)"
 
-# 读取用户选择
+# 在这里等待用户输入
 read -p "请输入选择的号码 (1-8): " choice
+
+# 检查输入有效性，直到用户做出有效选择
+while [[ ! "$choice" =~ ^[1-8]$ ]]; do
+  echo "无效的选择，请输入 1 到 8 之间的数字."
+  read -p "请输入选择的号码 (1-8): " choice
+done
 
 # 根据选择设置DNS
 case $choice in
@@ -27,7 +33,6 @@ case $choice in
   6) DNS="154.83.83.88" ;;
   7) DNS="154.83.83.89" ;;
   8) DNS="154.83.83.90" ;;
-  *) echo "无效的选择，使用默认 DNS ($DEFAULT_DNS)" && DNS="$DEFAULT_DNS" ;;
 esac
 
 # 更新 DNS 配置
