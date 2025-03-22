@@ -9,13 +9,14 @@ echo "1. 恢复之前的 DNS 配置"
 echo "2. 继续更改 DNS 配置"
 
 # 读取用户选择
-read -p "请输入选择的号码 (1-2): " choice
-
-# 检查用户输入是否为空或无效
-if [ -z "$choice" ]; then
-  echo "没有输入，脚本将退出。"
-  exit 1
-fi
+while true; do
+  read -p "请输入选择的号码 (1-2): " choice
+  if [[ "$choice" =~ ^[1-2]$ ]]; then
+    break
+  else
+    echo "无效输入，请输入 1 或 2."
+  fi
+done
 
 # 选择恢复原始 DNS 配置
 if [ "$choice" -eq 1 ]; then
@@ -57,13 +58,14 @@ echo "7. 英国 DNS (154.83.83.89)"
 echo "8. 德国 DNS (154.83.83.90)"
 
 # 读取用户选择
-read -p "请输入选择的号码 (1-8): " choice
-
-# 检查用户输入是否为空或无效
-if [ -z "$choice" ]; then
-  echo "没有输入，脚本将退出。"
-  exit 1
-fi
+while true; do
+  read -p "请输入选择的号码 (1-8): " choice
+  if [[ "$choice" =~ ^[1-8]$ ]]; then
+    break
+  else
+    echo "无效输入，请输入 1 到 8 之间的数字."
+  fi
+done
 
 # 根据选择设置DNS
 case $choice in
@@ -75,7 +77,6 @@ case $choice in
   6) DNS="154.83.83.88" ;;
   7) DNS="154.83.83.89" ;;
   8) DNS="154.83.83.90" ;;
-  *) echo "无效的选择，使用默认 DNS ($DEFAULT_DNS)" && DNS="$DEFAULT_DNS" ;;
 esac
 
 # 更新 DNS 配置
