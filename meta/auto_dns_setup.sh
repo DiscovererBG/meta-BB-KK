@@ -3,6 +3,29 @@
 # 默认DNS地址
 DEFAULT_DNS="154.83.83.83"
 
+# 提供选项恢复或更改DNS
+echo "请选择操作选项:"
+echo "1. 恢复之前的 DNS 配置"
+echo "2. 继续更改 DNS 配置"
+
+# 读取用户选择
+read -p "请输入选择的号码 (1-2): " choice
+
+# 选择恢复原始 DNS 配置
+if [ "$choice" -eq 1 ]; then
+  if [ -f /etc/resolv.conf.bak ]; then
+    echo "恢复原始 DNS 配置..."
+    cp /etc/resolv.conf.bak /etc/resolv.conf
+    echo "恢复成功！当前 DNS 配置："
+    cat /etc/resolv.conf
+  else
+    echo "备份文件未找到，无法恢复 DNS 配置。"
+  fi
+  exit 0
+fi
+
+# 如果选择更改DNS，继续执行以下操作
+
 # 显示当前DNS设置
 echo "当前DNS设置为："
 cat /etc/resolv.conf | grep "nameserver"
