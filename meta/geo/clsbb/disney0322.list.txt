@@ -1,12 +1,26 @@
-DOMAIN-SUFFIX,disneyplus.com,🏰 disney
-DOMAIN-SUFFIX,disney.com,🏰 disney
-DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com,🏰 disney
-DOMAIN-SUFFIX,disco-api.com,🏰 disney
-DOMAIN-SUFFIX,discoveryplus.com,🏰 disney
-DOMAIN-SUFFIX,x-default-stgec.uplynk.com,🏰 disney
-DOMAIN-SUFFIX,discovery.com,🏰 disney
-DOMAIN-SUFFIX,discoveryplus.co.uk,🏰 disney
-DOMAIN-SUFFIX,getblueshift.com,🏰 disney
-DOMAIN-SUFFIX,litix.io,🏰 disney
-DOMAIN-SUFFIX,mobile-collector.newrelic.com,🏰 disney
-DOMAIN-SUFFIX,discovery.uplynk.com,🏰 disney
+  # 精确匹配指定域名
+  - DOMAIN,disneyplus.com,🏰 disney
+  - DOMAIN,disney.com,🏰 disney
+  - DOMAIN,discoveryplus.com,🏰 disney
+  - DOMAIN,discovery.com,🏰 disney
+
+  # 匹配域名后缀
+  - DOMAIN-SUFFIX,disneyplus.com,🏰 disney
+  - DOMAIN-SUFFIX,disney.com,🏰 disney
+  - DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com,🏰 disney
+  - DOMAIN-SUFFIX,disco-api.com,🏰 disney
+  - DOMAIN-SUFFIX,discoveryplus.com,🏰 disney
+  - DOMAIN-SUFFIX,x-default-stgec.uplynk.com,🏰 disney
+  - DOMAIN-SUFFIX,discovery.com,🏰 disney
+  - DOMAIN-SUFFIX,discoveryplus.co.uk,🏰 disney
+  - DOMAIN-SUFFIX,getblueshift.com,🏰 disney
+  - DOMAIN-SUFFIX,litix.io,🏰 disney
+  - DOMAIN-SUFFIX,mobile-collector.newrelic.com,🏰 disney
+  - DOMAIN-SUFFIX,discovery.uplynk.com,🏰 disney
+
+  # 匹配包含关键字的域名
+  - DOMAIN-KEYWORD,disney,🏰 disney
+  - DOMAIN-KEYWORD,discovery,🏰 disney
+  - DOMAIN-KEYWORD,uplynk,🏰 disney
+  - DOMAIN-KEYWORD,blueshift,🏰 disney
+  - DOMAIN-KEYWORD,newrelic,🏰 disney
