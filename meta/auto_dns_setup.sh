@@ -11,6 +11,12 @@ echo "2. 继续更改 DNS 配置"
 # 读取用户选择
 read -p "请输入选择的号码 (1-2): " choice
 
+# 检查用户输入是否为空或无效
+if [ -z "$choice" ]; then
+  echo "没有输入，脚本将退出。"
+  exit 1
+fi
+
 # 选择恢复原始 DNS 配置
 if [ "$choice" -eq 1 ]; then
   if [ -f /etc/resolv.conf.bak ]; then
@@ -35,6 +41,10 @@ echo "正在备份当前 DNS 配置..."
 cp /etc/resolv.conf /etc/resolv.conf.bak
 echo "备份完成，备份文件保存为 /etc/resolv.conf.bak"
 
+# 运行流媒体解锁检测脚本（检查当前状态）
+echo "正在检测流媒体解锁情况..."
+bash <(curl -L -s https://github.com/1-stream/RegionRestrictionCheck/raw/main/check.sh) -M 4
+
 # 提示选择DNS地址
 echo "请选择要设置的DNS地址:"
 echo "1. 默认 DNS ($DEFAULT_DNS)"
@@ -46,12 +56,14 @@ echo "6. 美国 DNS (154.83.83.88)"
 echo "7. 英国 DNS (154.83.83.89)"
 echo "8. 德国 DNS (154.83.83.90)"
 
-# 运行流媒体解锁检测脚本（检查当前状态）
-echo "正在检测流媒体解锁情况..."
-bash <(curl -L -s https://github.com/1-stream/RegionRestrictionCheck/raw/main/check.sh) -M 4
-
 # 读取用户选择
 read -p "请输入选择的号码 (1-8): " choice
+
+# 检查用户输入是否为空或无效
+if [ -z "$choice" ]; then
+  echo "没有输入，脚本将退出。"
+  exit 1
+fi
 
 # 根据选择设置DNS
 case $choice in
