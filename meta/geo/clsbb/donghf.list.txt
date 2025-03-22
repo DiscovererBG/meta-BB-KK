@@ -1,0 +1,8 @@
+DOMAIN-SUFFIX,bahamut.akamaized.net,🎭 donghf
+DOMAIN-SUFFIX,gamer.com.tw,🎭 donghf
+DOMAIN-SUFFIX,bahamut.com.tw,🎭 donghf
+DOMAIN-SUFFIX,hinet.net,🎭 donghf
+DOMAIN-SUFFIX,fbcdn.net,🎭 donghf
+DOMAIN-SUFFIX,gvt1.com,🎭 donghf
+DOMAIN-SUFFIX,digicert.com,🎭 donghf
+DOMAIN-SUFFIX,viblast.com,🎭 donghf
