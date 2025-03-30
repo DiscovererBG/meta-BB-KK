@@ -130,6 +130,11 @@ const rurekey = {
   法国: /巴黎/g,
   G: /\d\s?GB/gi,
   Esnc: /esnc/gi,
+
+  // 👉 以下为新增的特殊标识名映射
+  新加坡: /\bzxp\b/i,
+  台湾: /\bftw\b/i,
+  香港: /\bakhk00\b/i,
 };
 
 let GetK = false, AMK = []
