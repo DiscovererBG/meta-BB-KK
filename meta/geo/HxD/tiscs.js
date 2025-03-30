@@ -132,9 +132,10 @@ const rurekey = {
   Esnc: /esnc/gi,
 
   // 👉 以下为新增的特殊标识名映射
-  新加坡: /\bzxp\b/i,
-  台湾: /\bftw\b/i,
-  香港: /\bakhk00\b/i,
+  新加坡: /zxp/i,
+  台湾: /ftw/i,
+  香港: /akhk00/i,
+  ...
 };
 
 let GetK = false, AMK = []
