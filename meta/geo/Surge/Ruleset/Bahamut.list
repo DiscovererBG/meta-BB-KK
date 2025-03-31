@@ -1,8 +1,14 @@
-# 内容：Bahamut
-# 数量：6条
-USER-AGENT,Anime*
-DOMAIN,bahamut.akamaized.net
-DOMAIN,gamer-cds.cdn.hinet.net
-DOMAIN,gamer2-cds.cdn.hinet.net
-DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,bahamut.akamaized.net
 DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,ani.gamer.com.tw
+DOMAIN-SUFFIX,vod2.gamer.com.tw
+DOMAIN-SUFFIX,vod3.gamer.com.tw
+DOMAIN-SUFFIX,vod4.gamer.com.tw
+DOMAIN-SUFFIX,ani.gslb.gamer.com.tw
+DOMAIN-SUFFIX,bahamutvideo.com
+DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,viblast.com
