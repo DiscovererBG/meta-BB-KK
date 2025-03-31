@@ -1,0 +1,51 @@
+# ===== 🌐 DOMAIN-SUFFIX 规则 =====
+DOMAIN-SUFFIX,ads-twitter.com,✖️ X
+DOMAIN-SUFFIX,cms-twdigitalassets.com,✖️ X
+DOMAIN-SUFFIX,periscope.tv,✖️ X
+DOMAIN-SUFFIX,pscp.tv,✖️ X
+DOMAIN-SUFFIX,t.co,✖️ X
+DOMAIN-SUFFIX,tellapart.com,✖️ X
+DOMAIN-SUFFIX,tweetdeck.com,✖️ X
+DOMAIN-SUFFIX,twimg.co,✖️ X
+DOMAIN-SUFFIX,twimg.com,✖️ X
+DOMAIN-SUFFIX,twimg.org,✖️ X
+DOMAIN-SUFFIX,twitpic.com,✖️ X
+DOMAIN-SUFFIX,twitter.biz,✖️ X
+DOMAIN-SUFFIX,twitter.com,✖️ X
+DOMAIN-SUFFIX,twitter.jp,✖️ X
+DOMAIN-SUFFIX,twittercommunity.com,✖️ X
+DOMAIN-SUFFIX,twitterflightschool.com,✖️ X
+DOMAIN-SUFFIX,twitterinc.com,✖️ X
+DOMAIN-SUFFIX,twitteroauth.com,✖️ X
+DOMAIN-SUFFIX,twitterstat.us,✖️ X
+DOMAIN-SUFFIX,twtrdns.net,✖️ X
+DOMAIN-SUFFIX,twttr.com,✖️ X
+DOMAIN-SUFFIX,twttr.net,✖️ X
+DOMAIN-SUFFIX,twvid.com,✖️ X
+DOMAIN-SUFFIX,vine.co,✖️ X
+DOMAIN-SUFFIX,x.com,✖️ X
+
+# ===== 📡 IP-CIDR (IPv4) =====
+IP-CIDR,8.25.194.0/23,✖️ X
+IP-CIDR,8.25.196.0/23,✖️ X
+IP-CIDR,64.63.0.0/18,✖️ X
+IP-CIDR,69.12.56.0/21,✖️ X
+IP-CIDR,69.195.160.0/19,✖️ X
+IP-CIDR,103.252.112.0/22,✖️ X
+IP-CIDR,104.244.40.0/23,✖️ X
+IP-CIDR,104.244.42.0/24,✖️ X
+IP-CIDR,104.244.44.0/22,✖️ X
+IP-CIDR,185.45.4.0/22,✖️ X
+IP-CIDR,188.64.224.0/21,✖️ X
+IP-CIDR,192.48.236.0/23,✖️ X
+IP-CIDR,192.133.76.0/22,✖️ X
+IP-CIDR,199.16.156.0/22,✖️ X
+IP-CIDR,199.59.148.0/22,✖️ X
+IP-CIDR,199.96.56.0/23,✖️ X
+IP-CIDR,202.160.128.0/22,✖️ X
+IP-CIDR,209.237.192.0/19,✖️ X
+
+# ===== 🌍 IP-CIDR6 (IPv6) =====
+IP-CIDR6,2400:6680:f000::/36,✖️ X
+IP-CIDR6,2606:1f80:f000::/36,✖️ X
+IP-CIDR6,2a04:9d40:f000::/36,✖️ X
