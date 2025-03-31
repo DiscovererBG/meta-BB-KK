@@ -1,0 +1,18 @@
+# ===== 🌐 DOMAIN-SUFFIX =====
+DOMAIN-SUFFIX,copilot.microsoft.com,🤖 Copilot
+DOMAIN-SUFFIX,githubcopilot.com,🤖 Copilot
+DOMAIN-SUFFIX,api.githubcopilot.com,🤖 Copilot
+DOMAIN-SUFFIX,bing.com,🤖 Copilot
+DOMAIN-SUFFIX,msedge.api.copilot.microsoft.com,🤖 Copilot
+...
+
+# ===== 📡 IP-CIDR（IPv4）=====
+IP-CIDR,20.190.128.0/18,🤖 Copilot
+IP-CIDR,104.146.128.0/17,🤖 Copilot
+IP-CIDR,140.82.112.0/20,🤖 Copilot
+...
+
+# ===== 🌍 IP-CIDR6（IPv6）=====
+IP-CIDR6,2620:1ec::/48,🤖 Copilot
+IP-CIDR6,2a01:111:f400::/48,🤖 Copilot
+...
