@@ -1,0 +1,40 @@
+# ===== 🌐 DOMAIN-SUFFIX 规则 =====
+DOMAIN-SUFFIX,facebook.com,📘 Facebook
+DOMAIN-SUFFIX,www.facebook.com,📘 Facebook
+DOMAIN-SUFFIX,fb.com,📘 Facebook
+DOMAIN-SUFFIX,fbcdn.net,📘 Facebook
+DOMAIN-SUFFIX,fbsbx.com,📘 Facebook
+DOMAIN-SUFFIX,facebook.net,📘 Facebook
+DOMAIN-SUFFIX,fb.me,📘 Facebook
+DOMAIN-SUFFIX,workplace.com,📘 Facebook
+DOMAIN-SUFFIX,accountkit.com,📘 Facebook
+DOMAIN-SUFFIX,atdmt.com,📘 Facebook
+DOMAIN-SUFFIX,fbworkmail.com,📘 Facebook
+DOMAIN-SUFFIX,messenger.com,📘 Facebook
+DOMAIN-SUFFIX,oculus.com,📘 Facebook
+DOMAIN-SUFFIX,parse.com,📘 Facebook
+DOMAIN-SUFFIX,instagram.com,📘 Facebook
+DOMAIN-SUFFIX,cdninstagram.com,📘 Facebook
+DOMAIN-SUFFIX,ig.me,📘 Facebook
+DOMAIN-SUFFIX,threads.net,📘 Facebook
+DOMAIN-SUFFIX,meta.com,📘 Facebook
+DOMAIN-SUFFIX,metaverse.com,📘 Facebook
+
+# ===== 📡 IP-CIDR (IPv4) =====
+IP-CIDR,31.13.24.0/21,📘 Facebook
+IP-CIDR,31.13.64.0/18,📘 Facebook
+IP-CIDR,45.64.40.0/22,📘 Facebook
+IP-CIDR,66.220.144.0/20,📘 Facebook
+IP-CIDR,69.63.176.0/20,📘 Facebook
+IP-CIDR,69.171.224.0/19,📘 Facebook
+IP-CIDR,74.119.76.0/22,📘 Facebook
+IP-CIDR,103.4.96.0/22,📘 Facebook
+IP-CIDR,129.134.0.0/17,📘 Facebook
+IP-CIDR,157.240.0.0/17,📘 Facebook
+IP-CIDR,173.252.64.0/18,📘 Facebook
+IP-CIDR,179.60.192.0/22,📘 Facebook
+IP-CIDR,185.60.216.0/22,📘 Facebook
+IP-CIDR,204.15.20.0/22,📘 Facebook
+
+# ===== 🌍 IP-CIDR6 (IPv6) =====
+IP-CIDR6,2a03:2880::/32,📘 Facebook
