@@ -1,10 +1,4 @@
-# ==================== Quantumult X 分流规则 ====================
-# 名称: Telegram
-# 来源: 自定义整理，适配 Quantumult X
-# 更新时间: 由 DiscovererBG 整理修订
-# 仅保留 DOMAIN-SUFFIX / IP-CIDR / IP-CIDR6 适配内容
 
-# ✅ 可用域名规则
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,graph.org
@@ -21,7 +15,6 @@ DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 
-# ✅ 可用 IPv4 段
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
@@ -32,7 +25,7 @@ IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.20.0/22,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
 
-# ✅ 可用 IPv6 段（Quantumult X 支持 IP-CIDR6）
+
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
