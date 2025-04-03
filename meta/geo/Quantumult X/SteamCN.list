@@ -1,0 +1,18 @@
+# SteamCN 高速下载（推荐保留）
+DOMAIN,csgo.wmsj.cn
+DOMAIN,dota2.wmsj.cn
+DOMAIN,dl.steam.ksyna.com
+DOMAIN,steamchina.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,cm.steampowered.com
+
+# 备选加速节点（可选）
+DOMAIN,dl.steam.clngaa.com
+DOMAIN,st.dl.bscstorage.net
+DOMAIN,st.dl.eccdnx.com
+DOMAIN,st.dl.pinyuncloud.com
+DOMAIN,steampipe.steamcontent.tnkjmec.com
+DOMAIN,wmsjsteam.com
+DOMAIN,xz.pphimalayanrt.com
+
