@@ -1,28 +1,40 @@
-# ==================== Quantumult X 分流规则 ====================
-# 名称: Spotify
-# 平台: Quantumult X
-# 作者: 自定义整合（基于官方域/IP）
-# 更新时间: 2024-04-03
-# 说明: 适用于 Spotify 音乐流媒体平台，包括网页版与移动端。
-# 类型支持: DOMAIN-SUFFIX / IP-CIDR / IP-CIDR6
-
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify-everywhere.com
-DOMAIN-SUFFIX,spotifycharts.com
-DOMAIN-SUFFIX,spotifyforbrands.com
-DOMAIN-SUFFIX,spotifynewsroom.jp
-DOMAIN-SUFFIX,spotify.design
-DOMAIN-SUFFIX,spotifycdn.net
-
-IP-CIDR,35.186.224.47/32,no-resolve
-IP-CIDR,104.199.64.0/18,no-resolve
-IP-CIDR,35.190.247.0/24,no-resolve
-IP-CIDR,35.186.224.0/24,no-resolve
-IP-CIDR,35.190.43.0/24,no-resolve
-
-IP-CIDR6,2404:6800:4004::/48,no-resolve
-IP-CIDR6,2a03:2880::/32,no-resolve
+# NAME: Spotify
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-11-25 02:12:13
+# HOST: 6
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 20
+# IP-CIDR: 2
+# USER-AGENT: 1
+# TOTAL: 30
+HOST,audio4-ak-spotify-com.akamaized.net,Spotify
+HOST,cdn-spotify-experiments.conductrics.com,Spotify
+HOST,heads-ak-spotify-com.akamaized.net,Spotify
+HOST,spotify.com.edgesuite.net,Spotify
+HOST,spotify.map.fastly.net,Spotify
+HOST,spotify.map.fastlylb.net,Spotify
+HOST-SUFFIX,audio-ak-spotify-com.akamaized.net,Spotify
+HOST-SUFFIX,byspotify.com,Spotify
+HOST-SUFFIX,heads4-ak-spotify-com.akamaized.net,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-SUFFIX,spotify-com.akamaized.net,Spotify
+HOST-SUFFIX,spotify-everywhere.com,Spotify
+HOST-SUFFIX,spotify.app.link,Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,spotify.design,Spotify
+HOST-SUFFIX,spotifycdn.com,Spotify
+HOST-SUFFIX,spotifycdn.net,Spotify
+HOST-SUFFIX,spotifycharts.com,Spotify
+HOST-SUFFIX,spotifycodes.com,Spotify
+HOST-SUFFIX,spotifyforbrands.com,Spotify
+HOST-SUFFIX,spotifyjobs.com,Spotify
+HOST-SUFFIX,spotifynewsroom.jp,Spotify
+HOST-SUFFIX,spotilocal.com,Spotify
+HOST-SUFFIX,tospotify.com,Spotify
+HOST-KEYWORD,spotify,Spotify
+USER-AGENT,Spotify*,Spotify
+IP-CIDR,104.154.127.126/32,Spotify
+IP-CIDR,35.186.224.47/32,Spotify
