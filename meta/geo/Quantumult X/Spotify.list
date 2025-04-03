@@ -6,7 +6,7 @@
 # 说明: 适用于 Spotify 音乐流媒体平台，包括网页版与移动端。
 # 类型支持: DOMAIN-SUFFIX / IP-CIDR / IP-CIDR6
 
-DOMAIN-SUFFIX,spotify.com
+# DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,pscdn.co
