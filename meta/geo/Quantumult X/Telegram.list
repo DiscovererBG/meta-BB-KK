@@ -34,16 +34,17 @@ HOST-KEYWORD,nicegram,Telegram
 
 
 
-IP-CIDR6,2001:67c:4e8::/48,no-resolve,Telegram
-IP-CIDR6,2001:b28:f23c::/47,no-resolve,Telegram
-IP-CIDR6,2001:b28:f23f::/48,no-resolve,Telegram
-IP-CIDR6,2a0a:f280::/29,no-resolve,Telegram
+
 
 # 以下为 Quantumult X 不支持的 IP-ASN 类型，已注释保留
 # IP-CIDR,109.239.140.0/24,no-resolve,Telegram
 # IP-CIDR,109.239.140.0/24,no-resolve,TelegramIP-CIDR,149.154.160.0/20,no-resolve,Telegram
 # IP-CIDR,109.239.140.0/24,no-resolve,TelegramIP-CIDR,5.28.192.0/18,no-resolve,Telegram
 # IP-CIDR,109.239.140.0/24,no-resolve,TelegramIP-CIDR,91.108.0.0/16,no-resolve,Telegram
+# IP-CIDR6,2001:67c:4e8::/48,no-resolve,Telegram
+# IP-CIDR6,2001:b28:f23c::/47,no-resolve,Telegram
+# IP-CIDR6,2001:b28:f23f::/48,no-resolve,Telegram
+# IP-CIDR6,2a0a:f280::/29,no-resolve,Telegram
 
 # IP-ASN,211157,Telegram
 # IP-ASN,44907,Telegram
