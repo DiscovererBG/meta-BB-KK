@@ -40,8 +40,11 @@ DOMAIN-SUFFIX,turn.livekit.cloud,OpenAI
 
 HOST-KEYWORD,openai,OpenAI
 
+
+
+# 以下为 Quantumult X 不支持的类型，已注释保留
+
 # IP-CIDR,24.199.123.28/32,no-resolve,OpenAI
 # IP-CIDR,64.23.132.171/32,no-resolve,OpenAI
 
-# 以下为 Quantumult X 不支持的类型，已注释保留
 # IP-ASN,20473,OpenAI
