@@ -1,4 +1,5 @@
 # 🚫 下载工具进程拦截（Mac/Win）
+
 PROCESS-NAME,aria2c.exe,REJECT
 PROCESS-NAME,fdm.exe,REJECT
 PROCESS-NAME,Folx.exe,REJECT
