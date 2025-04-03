@@ -1,42 +1,40 @@
 # ==================== Quantumult X 分流规则 ====================
 # 名称: Telegram
-# 平台: Quantumult X
-# 作者: 自定义整合（含 Nicegram / Swiftgram / Nekogram 等客户端）
-# 更新时间: 2024-04-03
-# 说明: 适用于 Telegram 及其第三方客户端所有通信服务。
-# 类型支持: DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD / PROCESS-NAME / IP-CIDR / IP-CIDR6
+# 来源: 自定义整理，适配 Quantumult X
+# 更新时间: 由 DiscovererBG 整理修订
+# 仅保留 DOMAIN-SUFFIX / IP-CIDR / IP-CIDR6 适配内容
 
-# === 域名规则 ===
-DOMAIN,api.imem.app
-DOMAIN,api.swiftgram.app
+# ✅ 可用域名规则
 DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,usercontent.dev
 
-# === 关键词匹配 ===
-DOMAIN-KEYWORD,nicegram
-
-# === 应用进程匹配（适用于 Quantumult X iOS App 和 Mac）===
-PROCESS-NAME,Telegram.exe
-PROCESS-NAME,nekox.messenger
-PROCESS-NAME,org.telegram.messenger
-PROCESS-NAME,telegram-desktop
-PROCESS-NAME,tw.nekomimi.nekogram
-PROCESS-NAME,xyz.nextalone.nagram
-
-# === IPv4 CIDR 段（Telegram 官方） ===
-IP-CIDR,109.239.140.0/24,no-resolve
+# ✅ 可用 IPv4 段
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,5.28.192.0/18,no-resolve
-IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
 
-# === IPv6 CIDR 段 ===
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23c::/47,no-resolve
+# ✅ 可用 IPv6 段（Quantumult X 支持 IP-CIDR6）
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2a0a:f280::/29,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
