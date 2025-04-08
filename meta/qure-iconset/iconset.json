@@ -4,6 +4,14 @@
     {
       "name": "Speedtest",
       "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Speedtest.png"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Telegram.png"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/F15DCE2F-2E1A-4D1F-940C-D10483C6F842.png"
     }
   ]
 }
