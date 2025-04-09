@@ -1,17 +1,217 @@
 {
-  "name": "My Icon Set",
+  "name": "My Full Icon Set",
   "icons": [
+    {
+      "name": "Apple",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Apple.png"
+    },
+    {
+      "name": "Apple_1",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Apple_1.png"
+    },
+    {
+      "name": "Apple_2",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Apple_2.png"
+    },
+    {
+      "name": "Apple_Fitness",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Apple_Fitness.png"
+    },
+    {
+      "name": "Apple_Music",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Apple_Music.png"
+    },
+    {
+      "name": "Brown",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Brown.png"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/ChatGPT.png"
+    },
+    {
+      "name": "Discord",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Discord.png"
+    },
+    {
+      "name": "Disney+",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Disney+.png"
+    },
+    {
+      "name": "Disney_1",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Disney_1.png"
+    },
+    {
+      "name": "Disney_2",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Disney_2.png"
+    },
+    {
+      "name": "Disney",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Disney.png"
+    },
+    {
+      "name": "Download",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Download.png"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Facebook.png"
+    },
+    {
+      "name": "Final",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Final.png"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/GitHub.png"
+    },
+    {
+      "name": "Hijackdns",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Hijackdns.png"
+    },
+    {
+      "name": "Line",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Line.png"
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Microsoft.png"
+    },
+    {
+      "name": "Mouse",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Mouse.png"
+    },
+    {
+      "name": "Netflix",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Netflix.png"
+    },
+    {
+      "name": "Netflix_Letter",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Netflix_Letter.png"
+    },
+    {
+      "name": "Ninja",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Ninja.png"
+    },
+    {
+      "name": "Nintendo",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Nintendo.png"
+    },
+    {
+      "name": "Ox",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Ox.png"
+    },
+    {
+      "name": "Panda",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Panda.png"
+    },
+    {
+      "name": "Paramount",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Paramount.png"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/PayPal.png"
+    },
+    {
+      "name": "Pig",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Pig.png"
+    },
+    {
+      "name": "PlayStation",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/PlayStation.png"
+    },
+    {
+      "name": "Ryan",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Ryan.png"
+    },
+    {
+      "name": "Spark",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Spark.png"
+    },
     {
       "name": "Speedtest",
       "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Speedtest.png"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Spotify.png"
+    },
+    {
+      "name": "Steam",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Steam.png"
     },
     {
       "name": "Telegram",
       "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Telegram.png"
     },
     {
+      "name": "Telegram_X",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Telegram_X.png"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/TikTok.png"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Twitch.png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Twitter.png"
+    },
+    {
+      "name": "Want_Want",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Want_Want.png"
+    },
+    {
+      "name": "WeChat",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/WeChat.png"
+    },
+    {
+      "name": "WiFi",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/WiFi.png"
+    },
+    {
+      "name": "Windows",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Windows.png"
+    },
+    {
+      "name": "X",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/X.png"
+    },
+    {
+      "name": "Xbox",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/Xbox.png"
+    },
+    {
       "name": "YouTube",
-      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/F15DCE2F-2E1A-4D1F-940C-D10483C6F842.png"
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/YouTube.png"
+    },
+    {
+      "name": "YouTube_Letter",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/YouTube_Letter.png"
+    },
+    {
+      "name": "YouTube_Music",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/YouTube_Music.png"
+    },
+    {
+      "name": "bilibili",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/bilibili.png"
+    },
+    {
+      "name": "bilibili_3",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/bilibili_3.png"
+    },
+    {
+      "name": "discovery+",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/discovery+.png"
+    },
+    {
+      "name": "ssLinks",
+      "url": "https://raw.githubusercontent.com/DiscovererBG/meta-BB-KK/main/meta/qure-iconset/ssLinks.png"
     }
   ]
 }
