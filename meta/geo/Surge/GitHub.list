@@ -1,30 +1,37 @@
-HOST-SUFFIX,atom.io
-HOST-SUFFIX,dependabot.com
-HOST-SUFFIX,ghcr.io
-HOST-SUFFIX,git.io
-HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
-HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
-HOST-SUFFIX,github-cloud.s3.amazonaws.com
-HOST-SUFFIX,github.blog
-HOST-SUFFIX,github.com
-HOST-SUFFIX,github.community
-HOST-SUFFIX,github.dev
-HOST-SUFFIX,github.io
-HOST-SUFFIX,githubapp.com
-HOST-SUFFIX,githubassets.com
-HOST-SUFFIX,githubhackathon.com
-HOST-SUFFIX,githubnext.com
-HOST-SUFFIX,githubpreview.dev
-HOST-SUFFIX,githubstatus.com
-HOST-SUFFIX,githubuniverse.com
-HOST-SUFFIX,githubusercontent.com
-HOST-SUFFIX,myoctocat.com
-HOST-SUFFIX,npm.community
-HOST-SUFFIX,npmjs.com
-HOST-SUFFIX,npmjs.org
-HOST-SUFFIX,opensource.guide
-HOST-SUFFIX,rawgit.com
-HOST-SUFFIX,rawgithub.com
-HOST-SUFFIX,repo.new
-HOST-SUFFIX,thegithubshop.com
-HOST-KEYWORD,github
+# NAME: GitHub
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:14:51
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 29
+# TOTAL: 30
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubhackathon.com
+DOMAIN-SUFFIX,githubnext.com
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubuniverse.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,rawgit.com
+DOMAIN-SUFFIX,rawgithub.com
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,thegithubshop.com
+DOMAIN-KEYWORD,github
