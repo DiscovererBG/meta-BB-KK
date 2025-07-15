@@ -125,7 +125,7 @@ const rurekey = {
   Germany: /Frankfurt/g,
   Switzerland: /Zurich/g,
   俄罗斯: /莫斯科/g,
-  土耳其: /伊斯坦布尔|cscsteq|teq/i,
+  土耳其: /伊斯坦布尔|cscsteq|teq|tr/i,
   泰国: /泰國|曼谷/g,
   法国: /巴黎/g,
   G: /\d\s?GB/gi,
