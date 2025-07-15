@@ -181,6 +181,9 @@ function operator(pro) {
   if (/zxp/i.test(e.name)) {
     e.name += " 新加坡";
   }
+      if (/teq/i.test(e.name)) {
+    e.name += " 土耳其";
+  }
     // 预处理 防止预判或遗漏
     Object.keys(rurekey).forEach((ikey) => {
       if (rurekey[ikey].test(e.name)) {
