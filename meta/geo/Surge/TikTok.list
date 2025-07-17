@@ -1,5 +1,13 @@
-DOMAIN-KEYWORD,tiktok
-DOMAIN-KEYWORD,musical.ly
+# NAME: TikTok
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:16:54
+# DOMAIN: 3
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 22
+# PROCESS-NAME: 1
+# USER-AGENT: 1
+# TOTAL: 29
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
@@ -25,5 +33,7 @@ DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,ttwebview.com
-
-
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,tiktok
+USER-AGENT,TikTok*
+PROCESS-NAME,com.zhiliaoapp.musically
