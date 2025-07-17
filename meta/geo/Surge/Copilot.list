@@ -1,26 +1,61 @@
-DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN-SUFFIX,assets.microsoftcopilot.net
-DOMAIN-SUFFIX,web.vscocdn.com
-DOMAIN-SUFFIX,vscode-cdn.azureedge.net
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,api.githubcopilot.com
-DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,www.bing.com
-DOMAIN-SUFFIX,edge.microsoft.com
-DOMAIN-SUFFIX,msedge.api.copilot.microsoft.com
-DOMAIN-SUFFIX,gateway.bingviz.microsoftapp.net
-DOMAIN-SUFFIX,assets.msn.com
-IP-CIDR,20.190.128.0/18
-IP-CIDR,20.192.0.0/10
-IP-CIDR,20.224.0.0/11
-IP-CIDR,13.107.4.0/22
-IP-CIDR,13.104.0.0/14
-IP-CIDR,40.64.0.0/10
-IP-CIDR,104.146.128.0/17
-IP-CIDR,140.82.112.0/20
-IP-CIDR6,2620:1ec::/48
-IP-CIDR6,2620:1ec:4::/48
-IP-CIDR6,2a01:111:f400::/48
+# NAME: Copilot
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:02
+# DOMAIN: 20
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 26
+# IP-ASN: 2
+# IP-CIDR: 2
+# TOTAL: 51
+DOMAIN,api.msn.com
+DOMAIN,api.statsig.com
+DOMAIN,assets.msn.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-KEYWORD,openaicom-api
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,14061,no-resolve
+IP-ASN,20473,no-resolve
