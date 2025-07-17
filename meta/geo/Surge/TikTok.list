@@ -1,3 +1,5 @@
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,musical.ly
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
@@ -23,5 +25,5 @@ DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-KEYWORD,musical.ly
-DOMAIN-KEYWORD,tiktok
+
+
