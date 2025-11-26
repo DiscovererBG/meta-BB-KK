@@ -5,3 +5,6 @@
 # DOMAIN: 1
 # TOTAL: 1
 DOMAIN,lens.l.google.com
+# Voice 自定义规则
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN-SUFFIX,call.google.com
