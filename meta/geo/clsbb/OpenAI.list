@@ -44,19 +44,3 @@ IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
 
-# Apple 智能 / Apple Intelligence / Siri 调 ChatGPT 用的域名（尽量全）
-DOMAIN-SUFFIX,apple-intelligence.com
-DOMAIN-SUFFIX,data.apple-intelligence.com
-DOMAIN-SUFFIX,apple-intelligence.apple
-DOMAIN-SUFFIX,siri.apple.com
-DOMAIN-SUFFIX,siri-cdn.apple.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,s.apple-dns.net
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,smoot.apple.cn
-DOMAIN-SUFFIX,assistant.apple.com
-DOMAIN-SUFFIX,api.siri.apple.com
-DOMAIN-SUFFIX,sirisuggestions.apple.com
-DOMAIN-SUFFIX,aiservices.apple.com
-DOMAIN-SUFFIX,aiservices.apple.cn
-DOMAIN-SUFFIX,apple.comscoreresults.com
