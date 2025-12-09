@@ -1,8 +1,20 @@
 # Apple
-# 一般国内Apple肯定正常,不需要开代理
+# 2025-12-09-BG更新
+# 你当前使用场景：策略走国外节点，用于 Apple AI 等服务
+
+# Apple Intelligence / Private Cloud Compute 额外域名
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+
+# 精准匹配 Apple 使用的 Akamai 域名（替代原来的 DOMAIN-SUFFIX,akadns.net）
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
+DOMAIN-KEYWORD,apple-support.akadns.net
+
+# 核心 Apple 域名
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple-mapkit.com
@@ -19,6 +31,8 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+
+# Apple IP 段
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
