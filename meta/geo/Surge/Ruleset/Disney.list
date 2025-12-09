@@ -4,7 +4,8 @@
 # UPDATED: 2025-07-30 02:08:18
 # DOMAIN-SUFFIX: 172
 # PROCESS-NAME: 2
-# TOTAL: 174
+# USER-AGENT: 1
+# TOTAL: 175
 DOMAIN-SUFFIX,20thcenturystudios.com.au
 DOMAIN-SUFFIX,20thcenturystudios.com.br
 DOMAIN-SUFFIX,20thcenturystudios.jp
@@ -177,5 +178,6 @@ DOMAIN-SUFFIX,thewaltdisneycompany.com
 DOMAIN-SUFFIX,thisispolaris.com
 DOMAIN-SUFFIX,watchdisneyfe.com
 DOMAIN-SUFFIX,watchespn.com
+USER-AGENT,Disney+*
 PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
 PROCESS-NAME,com.disney.disneyplus
